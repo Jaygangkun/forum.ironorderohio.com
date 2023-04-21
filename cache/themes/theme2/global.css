@@ -1,5 +1,6 @@
 body {
 	background: #222222;
+  background: #060606;
 	color: #fff;
 	text-align: center;
 	line-height: 1.4;
@@ -10,18 +11,18 @@ body {
 }
 
 a:link {
-	color: #ffffff;
+	color: #222222;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #f1f1f1;
+	color: #222222;
 	text-decoration: none;
 }
 
 a:hover,
 a:active {
-	color: #222222;
+  color: #222222;
 	text-decoration: underline;
 }
 
@@ -86,6 +87,7 @@ a:active {
 	background-repeat: no-repeat;
 	display: inline-block;
 	line-height: 16px;
+  color: #ffffff;
 }
 
 #logo ul.top_links {
@@ -164,6 +166,7 @@ a:active {
 
 #panel .upper {
 	background: #0f0f0f url(../../../images/tcat.png) repeat-x;
+  background: #222;
 	color: #fff;
 	border-top: 1px solid #444;
 	border-bottom: 1px solid #000;
@@ -209,6 +212,8 @@ a:active {
 #search input.button {
 	background: #000000 url(../../../images/thead.png) top left repeat-x;
 	color: #fff;
+  background: #ffffff;
+  color: #060606;
 }
 
 #search input {
@@ -237,8 +242,9 @@ a:active {
 
 #footer .upper {
 	background: #efefef;
-	border-top: 1px solid #bbb;
-	border-bottom: 1px solid #bbb;
+  background: #222;
+	/* border-top: 1px solid #bbb;
+	border-bottom: 1px solid #bbb; */
 	padding: 6px;
 	font-size: 12px;
 	overflow: hidden;
@@ -248,7 +254,7 @@ a:active {
 #footer a:visited,
 #footer a:hover,
 #footer a:active {
-	color: #777;
+  color: #ffffff;
 }
 
 #footer .upper .language {
@@ -277,7 +283,8 @@ a:active {
 }
 
 #footer .lower {
-	color: #666;
+  background: #222;
+	color: #ffffff;
 	padding: 6px 6px 12px 6px;
 	overflow: hidden;
 	font-size: 11px;
@@ -285,20 +292,20 @@ a:active {
 
 #footer .lower a:link,
 #footer .lower a:visited {
-	color: #444;
+	color: #ffffff;
 	font-weight: bold;
 }
 
 #footer .lower a:hover,
 #footer .lower a:active {
-	color: #333;
+	color: #ffffff;
 	text-decoration: underline;
 	font-weight: bold;
 }
 
 #footer .lower #current_time {
 	float: right;
-	color: #888;
+	color: #ffffff;
 }
 
 #debug {
@@ -389,25 +396,26 @@ table {
 .thead {
 	background: #0072bc url(../../../images/thead.png) top left repeat-x;
 	background-color: #222222;
+  background: #222222;
 	color: #ffffff;
 	border-bottom: 1px solid #263c30;
 	padding: 8px;
 }
 
 .thead a:link {
-	background: #0072bc;
-	color: #ffffff;
+	background: #222222;
+	color: #222222;
 	text-decoration: none;
 }
 
 .thead a:visited {
-	color: #ffffff;
+	/* color: #ffffff; */
 	text-decoration: none;
 }
 
 .thead a:hover,
 .thead a:active {
-	color: #ffffff;
+	color: #222222;
 	text-decoration: underline;
 }
 
@@ -541,8 +549,12 @@ tr.trow_selected td {
 }
 
 .navigation {
-	color: #555;
+	color: #ffffff;
 	font-size: 12px;
+}
+
+.navigation a {
+  color: #ffffff;
 }
 
 .navigation a:link {
@@ -1915,3 +1927,21 @@ div.jqi .jqisubstate .jqibuttons button{
 }
 
 /** Impromptu End */
+
+input[type="checkbox"],
+input[type="radio"] {
+  accent-color: #060606;
+}
+
+a.forum-name {
+  color: #ffffff !important;
+}
+
+fieldset table .smalltext,
+fieldset table .largetext {
+  color: #ffffff;
+}
+
+.white-color a {
+  color: #ffffff;
+}
